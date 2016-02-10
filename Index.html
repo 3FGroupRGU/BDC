@@ -5,6 +5,31 @@
     <title>This is a test page showing form formation</title>
 </head>
 <body>
-
+    <form>
+        <fieldset>
+            <legend> Please leave a comment...</legend>
+            <table>
+                <tr>
+                    <td><label>User Name:</label></td>
+                    <td><input type="text" name="name" value="User Name" placeholder/></td>
+                </tr>
+                <tr>
+                    <td><label>Email:</label></td>
+                    <td><input type="text" name="email" value="Email Address" placeholder/></td>
+                </tr>
+                <tr>
+                    <td><label for="psw">Password:</label></td>
+                    <td> <input type="password" name="psw" value="" required></td>
+                </tr>
+                <tr>
+                    <td><label for="comments">Comments:</label></td>
+                    <td><textarea name="comments" cols="45" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Response"/></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
 </body>
 </html>
